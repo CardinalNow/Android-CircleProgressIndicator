@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/compliance_layout"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@color/white">
+
+	<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:text="@string/app_name"
+			android:textSize="@dimen/twenty_six_sp"
+			android:textColor="@color/black"
+			android:paddingTop="@dimen/eighty_dp"
+			android:gravity="center_horizontal" />
+
+	<com.cardinalsolutions.progressindicator.CurvedTextView
+			android:id="@+id/compliance_curved_text"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center"
+			android:layout_alignParentTop="true"
+			android:textSize="@dimen/fifteen_sp"
+			android:text="@string/curved_text_value"
+			android:textStyle="bold"
+			android:paddingTop="@dimen/ten_dp" />
+
+	<ProgressBar
+			style="?android:attr/progressBarStyleHorizontal"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_centerInParent="true"
+			android:indeterminate="false"
+			android:max="100"
+			android:progress="100"
+			android:progressDrawable="@drawable/circle_progress_background" />
+
+	<ProgressBar
+			android:id="@+id/circle_progress_bar"
+			style="?android:attr/progressBarStyleHorizontal"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_centerInParent="true"
+			android:max="100"
+			android:rotation="-90"
+			android:indeterminate="false"
+			android:progressDrawable="@drawable/circle_progress_foreground" />
+
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_centerInParent="true"
+			android:orientation="vertical"
+			android:gravity="center">
+
+		<TextView
+				android:id="@+id/compliance_total_count"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/total_observations"
+				android:gravity="center"
+				android:textSize="@dimen/fourteen_sp"
+				android:textStyle="bold"
+				android:textColor="@color/black" />
+
+		<TextView
+				android:id="@+id/compliance_observations"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:textSize="@dimen/twelve_sp"
+				android:text="@string/home_screen_observations"
+				android:paddingBottom="@dimen/five_dp"
+				android:textColor="@color/text_gray" />
+
+		<TextView
+				android:id="@+id/compliance_percentage"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:textSize="@dimen/fourteen_sp"
+				android:text="@string/percent_value"
+				android:textStyle="bold"
+				android:textColor="@color/black" />
+
+		<TextView
+				android:id="@+id/compliance_observed_compliance"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:textSize="@dimen/twelve_sp"
+				android:text="@string/home_screen_observed_compliance"
+				android:paddingBottom="@dimen/ten_dp"
+				android:textColor="@color/text_gray" />
+
+	</LinearLayout>
+
+	<ImageView
+			android:id="@+id/activity_cardinal_bird"
+			android:contentDescription="@string/content_description"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="@dimen/fifteen_dp"
+			android:paddingRight="@dimen/fifteen_dp"
+			android:paddingBottom="@dimen/twenty_dp"
+			android:src="@drawable/cardinal_bird"
+			android:paddingTop="@dimen/twenty_dp"/>
+
+</RelativeLayout>

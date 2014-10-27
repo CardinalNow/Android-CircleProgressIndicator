@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="clear">#00ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_white">#80FFFFFF</color>
+    <color name="transparent_black">#80000000</color>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="white_pressed">#E5E5E5</color>
+
+	<color name="light_gray">#ABBAC2</color>
+	<color name="text_gray">#6B767D</color>
+    
+    <color name="coral_blue">#1DAEFA</color>
+    <color name="coral_blue_pressed">#1A9CE1</color>
+    <color name="dark_blue">#125D9D</color>
+    <color name="dark_blue_pressed">#10538D</color>
+    <color name="mid_circle_blue">#177DC2</color>
+    <color name="select_moment_blue">#4EA2DB</color>
+    <color name="select_moment_blue_pressed">#2D91D4</color>
+    <color name="ppe_button_blue">#2E8BCF</color>
+    <color name="cancel_blue">#125D9D</color>
+    <color name="smartwatch_color">#4ea2db</color>
+    
+    <color name="black">#ff000000</color>
+    
+</resources>

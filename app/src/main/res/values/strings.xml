@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Circle Progress Indicator</string>
+	<string name="curved_text_value">In/Out Facility</string>
+	<string name="home_screen_observations">OBSERVATIONS</string>
+	<string name="total_observations">2375</string>
+	<string name="percent_value">65%</string>
+	<string name="home_screen_observed_compliance">OBSERVED\nCOMPLIANCE</string>
+	<string name="content_description">This is an image…</string>
+
+</resources>
