@@ -55,7 +55,6 @@ public class CurvedTextView extends TextView {
 		        R.dimen.fifteen_sp));
 	}
 
-	@SuppressLint("DrawAllocation")
 	@Override
 	protected void onDraw(Canvas canvas) {
 
@@ -84,6 +83,5 @@ public class CurvedTextView extends TextView {
 
 		canvas.drawTextOnPath((String) getText(), this.myArc, 0, 10,
 		        this.mPaintText);
-		invalidate();
 	}
 }
