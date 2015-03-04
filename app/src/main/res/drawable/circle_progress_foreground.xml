@@ -4,7 +4,8 @@
             <shape
                 android:innerRadius="@dimen/sixty_dp"
                 android:shape="ring"
-                android:thickness="@dimen/seven_dp">
+                android:thickness="@dimen/seven_dp"
+                android:useLevel="true">
                 
                 <gradient
                     android:startColor="@color/dark_blue"
