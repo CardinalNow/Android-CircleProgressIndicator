@@ -15,6 +15,16 @@ This widget is a cutomized version of the Android ProgressBar.  It provides deve
 
 Compatible with all versions of the Android operating system
 
+# Icluding in your project
+
+repositories {
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    compile 'com.github.CardinalNow:Android-CircleProgressIndicator:78ba1d2066'
+}
+
 # Configuration
 
 The progress ring is defined in /res/drawable/circle_progress_foreground.xml.  The developer can modify the ring thickness inside the applicable tags:
