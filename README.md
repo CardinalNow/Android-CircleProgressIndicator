@@ -22,7 +22,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.CardinalNow:Android-CircleProgressIndicator:78ba1d2066'
+    compile 'com.github.CardinalNow:Android-CircleProgressIndicator:LATEST_COMMIT'
 }
 
 # Configuration
