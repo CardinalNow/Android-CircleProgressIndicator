@@ -16,14 +16,18 @@ This widget is a cutomized version of the Android ProgressBar.  It provides deve
 Compatible with all versions of the Android operating system
 
 # Icluding in your project
-
+First declare the JitPack repository:
+```
 repositories {
-    maven { url "https://jitpack.io" }
-}
-
-dependencies {
-    compile 'com.github.CardinalNow:Android-CircleProgressIndicator:LATEST_COMMIT'
-}
+        // ...
+        maven { url "https://jitpack.io" }
+    }
+```
+Then declare the dependency like this:
+```
+compile 'com.github.CardinalNow:Android-CircleProgressIndicator:-SNAPSHOT'
+```
+Using `-SNAPSHOT` will get you the latest commit.
 
 # Configuration
 
