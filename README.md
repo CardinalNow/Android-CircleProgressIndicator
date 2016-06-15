@@ -25,9 +25,9 @@ repositories {
 ```
 Then declare the dependency like this:
 ```
-compile 'com.github.CardinalNow:Android-CircleProgressIndicator:-SNAPSHOT'
+compile 'com.github.CardinalNow:Android-CircleProgressIndicator:v0.1'
 ```
-Using `-SNAPSHOT` will get you the latest commit.
+This tracks against the tag `v0.1`
 
 # Configuration
 
@@ -87,18 +87,11 @@ To use this in your application, just add two progress bars in your layout.xml o
 Inside the activity, declare the ProgressBar you've defined as the foreground circle, and set it's progress:
 
 ```Java
-@AndroidView(R.id.circle_progress_bar)
-private ProgressBar mProgress;	
-
-...
+ProgressBar progressBar = (ProgressBar) findViewById(R.id.circle_progress_bar);
 mProgress.setProgress(65);
 ```
 
 That's all it takes!!
-
-## Bonus Material
-
-This app is utilizing the [AndroidAutowire](https://github.com/CardinalNow/AndroidAutowire) library to wire up the views.  While not necessary, it's a great tool that will reduce your boilerplate setup for Activities, Fragments, and Views with an annotation based approach.
 
 ## Author / License
 
