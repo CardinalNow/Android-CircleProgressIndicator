@@ -15,7 +15,7 @@ This widget is a cutomized version of the Android ProgressBar.  It provides deve
 
 Compatible with all versions of the Android operating system
 
-# Icluding in your project
+# Including in your project
 First declare the JitPack repository:
 ```
 repositories {
