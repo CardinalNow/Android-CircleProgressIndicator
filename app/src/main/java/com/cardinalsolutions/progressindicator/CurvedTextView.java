@@ -52,7 +52,7 @@ public class CurvedTextView extends TextView {
 		this.mPaintText.setColor(getResources().getColor(R.color.black));
 		// set text Size
 		this.mPaintText.setTextSize(getResources().getDimension(
-		        R.dimen.fifteen_sp));
+		        R.dimen.curvedTextViewTextSize));
 	}
 
 	@Override
@@ -64,8 +64,8 @@ public class CurvedTextView extends TextView {
 		int viewXCenterOnScreen = getLeft() + centerXOnView;
 		int viewYCenterOnScreen = getTop() + centerYOnView;
 
-		float threeDpPad = getResources().getDimension(R.dimen.three_dp);
-		float rad = getResources().getDimension(R.dimen.seventy_dp);
+		float threeDpPad = getResources().getDimension(R.dimen.curvedTextPadding);
+		float rad = getResources().getDimension(R.dimen.curvedTextRadius);
 
 		int leftOffset = (int) (viewXCenterOnScreen - (rad + (threeDpPad * 4)));
 		int topOffset = (int) (viewYCenterOnScreen - (rad + (threeDpPad * 3)));

@@ -2,13 +2,13 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
     <item android:id="@android:id/progress">
         <shape
-            android:innerRadius="@dimen/sixty_dp"
+            android:innerRadius="@dimen/circleProgressRadius"
             android:shape="ring"
-            android:thickness="@dimen/seven_dp">
+            android:thickness="@dimen/circleProgressThickness">
             
             <gradient
-                android:startColor="@color/light_gray"
-                android:endColor="@color/light_gray"
+                android:startColor="@color/circleProgressIncompleteStartGradient"
+                android:endColor="@color/circleProgressIncompleteEndGradient"
                 android:type="sweep" />   
         </shape>
     </item>

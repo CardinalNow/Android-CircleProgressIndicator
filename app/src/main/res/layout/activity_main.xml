@@ -10,9 +10,9 @@
 			android:layout_width="match_parent"
 			android:layout_height="match_parent"
 			android:text="@string/app_name"
-			android:textSize="@dimen/twenty_six_sp"
+			android:textSize="20sp"
 			android:textColor="@color/black"
-			android:paddingTop="@dimen/eighty_dp"
+			android:paddingTop="80dp"
 			android:gravity="center_horizontal" />
 
 	<com.cardinalsolutions.progressindicator.CurvedTextView
@@ -21,10 +21,10 @@
 			android:layout_height="match_parent"
 			android:gravity="center"
 			android:layout_alignParentTop="true"
-			android:textSize="@dimen/fifteen_sp"
+			android:textSize="15sp"
 			android:text="@string/curved_text_value"
 			android:textStyle="bold"
-			android:paddingTop="@dimen/ten_dp" />
+			android:paddingTop="10dp" />
 
 	<ProgressBar
 			style="?android:attr/progressBarStyleHorizontal"
@@ -60,7 +60,7 @@
 				android:layout_height="wrap_content"
 				android:text="@string/total_observations"
 				android:gravity="center"
-				android:textSize="@dimen/fourteen_sp"
+				android:textSize="14sp"
 				android:textStyle="bold"
 				android:textColor="@color/black" />
 
@@ -69,9 +69,9 @@
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:gravity="center"
-				android:textSize="@dimen/twelve_sp"
+				android:textSize="12sp"
 				android:text="@string/home_screen_observations"
-				android:paddingBottom="@dimen/five_dp"
+				android:paddingBottom="5dp"
 				android:textColor="@color/text_gray" />
 
 		<TextView
@@ -79,7 +79,7 @@
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:gravity="center"
-				android:textSize="@dimen/fourteen_sp"
+				android:textSize="14sp"
 				android:text="@string/percent_value"
 				android:textStyle="bold"
 				android:textColor="@color/black" />
@@ -89,9 +89,9 @@
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:gravity="center"
-				android:textSize="@dimen/twelve_sp"
+				android:textSize="12sp"
 				android:text="@string/home_screen_observed_compliance"
-				android:paddingBottom="@dimen/ten_dp"
+				android:paddingBottom="10dp"
 				android:textColor="@color/text_gray" />
 
 	</LinearLayout>
@@ -103,10 +103,10 @@
 			android:layout_alignParentRight="true"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:paddingLeft="@dimen/fifteen_dp"
-			android:paddingRight="@dimen/fifteen_dp"
-			android:paddingBottom="@dimen/twenty_dp"
+			android:paddingLeft="15dp"
+			android:paddingRight="15dp"
+			android:paddingBottom="20dp"
 			android:src="@drawable/cardinal_bird"
-			android:paddingTop="@dimen/twenty_dp"/>
+			android:paddingTop="20dp"/>
 
 </RelativeLayout>
